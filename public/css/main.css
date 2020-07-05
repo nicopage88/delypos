@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../../../../../fonts/2e40e2257259e2decd293ddc77e60fda.woff2");
+}
+body{
+    font-family: 'Proxima Nova' !important;
+}
+h1,h2,h3,h4,h5,h6,thead th,.card-header{
+    font-weight: 800 !important;
+}
+
+.c-legacy-theme .btn-primary{
+    background: #1273eb !important;
+    border: none !important
+}
+.tittle-user{
+    font-family: Proxima Nova,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif !important;
+    font-size: 1em !important;
+    line-height: 1.2 !important;
+    margin: 0 0 .75em !important;
+    font-weight: 500 !important;
+    color: #1d262d !important;
+    font-size: 30px !important;
+    
+}
+
+.c-main{
+    background-image: url('../../../../../../../img/fondo_page2.png') !important;
+    background-color: #f5f8f9 !important;
+}
+
+.c-footer{
+    display: none;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-download{
+    background-color: #69e781;
+    border: none;
+    border-radius: 3px;
+    color: #0b2239;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Proxima Nova,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    line-height: 1;
+    padding: .75em 1em;
+    text-decoration: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    outline: none;
+    -webkit-transition: all .1s cubic-bezier(.165,.84,.44,1);
+    -moz-transition: all .1s cubic-bezier(.165,.84,.44,1);
+    transition: all .1s cubic-bezier(.165,.84,.44,1);
+    border-radius: 2em;
+    padding: .75em 1.5em;
+    text-decoration: none !important;
+}
+
+.btn-download2{
+    background-color: #ffb229;
+    border: none;
+    border-radius: 3px;
+    color: #fbfbfb;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Proxima Nova,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    line-height: 1;
+    padding: .75em 1em;
+    text-decoration: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    outline: none;
+    -webkit-transition: all .1s cubic-bezier(.165,.84,.44,1);
+    -moz-transition: all .1s cubic-bezier(.165,.84,.44,1);
+    transition: all .1s cubic-bezier(.165,.84,.44,1);
+    border-radius: 2em;
+    padding: .75em 1.5em;
+    text-decoration: none !important;
+}
+
+.btn-download:hover{
+    color: white !important;
+}
+
+.strong{
+    color: #374957 !important;
+}
+.light{ 
+    color: #5f7d95 !important;
+}
+.c-legacy-theme .c-sidebar.c-sidebar-dark{
+    background: #0b2239 !important;
+    
+}
+#sidebar > ul{
+   
+}
+
+.c-sidebar .c-sidebar-nav-link.c-active, .c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+    color: #fff !important;
+    background: #69e781 !important;
+}
+
+.c-sidebar .c-sidebar-nav-link:hover, .c-sidebar .c-sidebar-nav-dropdown-toggle:hover{
+    color: #fff !important;
+    background: #43df61 !important;
+    cursor: pointer;
+}
+.error-code{
+    border-color: #e55353 !important;
+    border-width: medium !important;
+}
+.success-code{
+    border-color: #2bd61f !important;
+    border-width: medium !important;
+}
+header.c-header.c-header-light.c-header-fixed {
+    background: #ccc !important;
+}
+li.c-sidebar-nav-item,.c-sidebar-nav-dropdown {
+    background: #0b2239 !important;
+}
+.select-wrapper.mdb-select.md-form{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+button{
+    margin: 0px !important;
+ 
+    padding: 0px;
+}
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 80px;
+    background: white;
+  
+}
+.lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    margin-left: 32px;
+    width: 16px;
+    background: #565656;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+    }
+    .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+}
+@keyframes lds-facebook {
+    0% {
+        top: 8px;
+        height: 64px;
+    }
+    50%, 100% {
+        top: 24px;
+        height: 32px;
+    }
+}
